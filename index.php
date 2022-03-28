@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
    <div class="container" style="max-width: 50%;"> 
       <div class="text-center mt-5 mb-4">
          <h2 align="center">Opioid Search</h2></br>
@@ -29,7 +28,6 @@
    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
    <?php include('search.php'); ?>
    <script type="text/javascript">
-      
       $(document).ready(function(){
          $("#search_text").keyup(function(){
             var input = $(this).val();
