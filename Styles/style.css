@@ -6,7 +6,6 @@
 
 }
 
-
 #title{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -45,20 +44,25 @@
     text-align: center;
 }
 
+.drug-information-container .drug-information .bn-and-csa .container .row .col #card-info .card-header:first-child{
+    font-weight: 600;
+}
+
+
 .accordion-button {
     position: relative;
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 0.5rem 1.25rem;
-    font-size: 1.7rem;
+    padding: 0.7rem 2.25rem;
+    font-size: 1.8rem;
     color: #0f0f0f;
-    text-align: left;
+    text-align: center;
     background-color: #fff;
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    transition: color .15s ease-in-out,background-color .10s ease-in-out,border-color .10s ease-in-out,box-shadow .10s ease-in-out,border-radius .10s ease;
 }
 
 .accordion-item:first-of-type .accordion-button {
@@ -68,14 +72,14 @@
 
 .accordion-button:focus {
     z-index: 3;
-    border-color: #77797c;
-    outline: 0;
+    border-color: #6982a8;
+    outline: 1;
     box-shadow: 0 0 0 0.25rem rgba(98, 157, 233, 0.25);
 }
 
-.accordion{
+/* .accordion{
     float: left;
-    line-height: 1.0;
+    line-height: 15px;
     width: 100%;
     border-style: solid;
     border-left-width: 1px;
@@ -83,7 +87,8 @@
     border-top-width: 1px;
     border-bottom-width: 1px;
     margin-top: 1%;
-}
+
+} */
 
 
 

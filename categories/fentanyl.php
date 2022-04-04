@@ -24,7 +24,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col" style="width: 40%;">
-                                <div class="card text-dark bg-light mb-3">
+                                <div class="card text-dark bg-light mb-3" id="card-info">
                                     <div class="card-header">
                                         Drug Scheduling <!-- csa -->
                                     </div>
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                             <div class="col" style="width: 40%;">
-                                <div class="card text-dark bg-light mb-3">
+                                <div class="card text-dark bg-light mb-3" id="card-info">
                                     <div class="card-header">
                                         Brand Names
                                     </div>
@@ -63,7 +63,7 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Fentanyl is a synthetic opioid that is 80-100 times stronger than morphine.
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Fentanyl is typically administered intravenously (IV), intramuscularly (IM), transdermally (TD) as skin patches, intranasally (IN) in the form of a volatile nasal spray, and intrathecally (IT). It is also available as a buccal soluble thin film, which can dissolve in the mouth, similar to the sublingual tablets.
                             </div>
                         </div>
                     </div>
