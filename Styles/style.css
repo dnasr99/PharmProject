@@ -6,9 +6,84 @@
 
 }
 
-#card{
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
+
+#title{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 7px 7px #FFFFFF;
+    font-size: 60px;
 }
+
+#paragraph{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+
+#fentanyl-header{
+    margin-top: 0%;
+    padding-top: 0.5%; 
+    padding-bottom: 0.5%;
+    text-align: center;
+
+}
+
+.card-text-fentanyl{
+    text-align: left;
+}
+
+.drug-information-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.drug-information{
+    width: 50%;
+}
+
+.card-title-bn{
+    text-align: center;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1.25rem;
+    font-size: 1.7rem;
+    color: #0f0f0f;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #77797c;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(98, 157, 233, 0.25);
+}
+
+.accordion{
+    float: left;
+    line-height: 1.0;
+    width: 100%;
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    margin-top: 1%;
+}
+
+
+

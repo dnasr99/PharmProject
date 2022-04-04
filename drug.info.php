@@ -13,10 +13,10 @@ if(isset($_GET['id']))
     $row = mysqli_fetch_assoc($result);
 
 
-    if($row['genericname'] == "FENTANYL"){
+    if($row['genericname'] == "FENTANYL" OR $row['genericname'] == "FENTANYL CITRATE"){
         include("categories/FENTANYL.php");
     }
-    else if($row['genericname'] == "MORPHINE"){
+    else if($row['genericname'] == "MORPHINE" OR $row['genericname'] == "MORPHINE SULFATE"){
         include("categories/MORPHINE.php");
     
     }
@@ -24,7 +24,6 @@ if(isset($_GET['id']))
 }else{
     echo "Sorry, Opioid not found";
 }
-
 
 
 ?>
