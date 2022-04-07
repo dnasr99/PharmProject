@@ -15,11 +15,10 @@
 </head>
 
 <body>
-   <div class="container" style="max-width: 50%;"> 
+   <div class="container" id="searchbox"> 
       <div class="text-center mt-5 mb-4">
          <h2 align="center">Opioid Search</h2></br>
       </div>
-
       <input type="text" name="search" class="form-control" id="search_text" autocomplete = "off"
       placeholder="Search Drug Name..." />
    </div>
