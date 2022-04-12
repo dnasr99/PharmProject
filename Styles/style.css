@@ -44,30 +44,34 @@
 
 
 #tableDiv {
-    width: 65%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#searchresult{
-    /* height: 70vh; */
-}
+/* #searchresult{
+    height: 70vh;
+} */
 
 #title{
-    color: black;
-    text-shadow: 7px 7px #FFFFFF;
+    /* color: black; */
+    text-shadow: 3px 3px black;
+    color: var(--platinum);
     font-size: 60px;
 }
 
 #paragraph{
+    color: var(--platinum);
     font-size: 20px;
 }
 
 #background{
+    
     margin-top: 10rem;
 }
 
 #fentanyl-header{
+    background-color: var(--oxford-blue);
     margin-top: 0%;
     padding-top: 0.5%; 
     padding-bottom: 0.5%;
@@ -94,6 +98,12 @@
 
 .drug-information-container .drug-information .bn-and-csa .container .row .col #card-info .card-header:first-child{
     font-weight: 600;
+}
+
+
+.container .drug-information #carouselExampleControls .carousel-inner .carousel-item, img{
+    height: 20rem;
+    width: 100%;
 }
 
 

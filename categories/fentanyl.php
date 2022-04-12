@@ -1,5 +1,6 @@
 <!DOCTYPE html>
     <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="Styles/style.css">
@@ -46,7 +47,6 @@
                                             Abstral, Actiq, Duragesic, 
                                             Fentora, Lazanda, Subsys
                                         </h5>
-                                        <!-- <p class="card-text-fentanyl">Fentanyl is considered a Schedule II drug because of its high potential for abuse, physical/psychological dependency, and can be dangerous.</p> -->
                                     </div>
                                 </div>
                             </div>
@@ -81,26 +81,42 @@
                         </div>
                     </div>
                 </div>
-            </div>
-                <div id="background">
+            </div>   
+        </div>
+        <div class="container">
+            <div class="drug-information">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" id="FirstCarousel" >
+                            <img src="medpictures/FentanylDurogesic.jpg">
+                        </div>
+                        <div class="carousel-item" id="image2">
+                            <img src="medpictures/FentanylCitrate.jpg">
+                        </div>
+                        <div class="carousel-item" id="image3">
+                            <img src="medpictures/fentora.jpg">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+               </div>
+               <div id="background">
                     <div class="card">
                         <div class="card-body">
                     
-                            Fentanyl, a potent opioid agonist, was developed in the 1950s to fill a need for strong and rapid analgesia.8 Because of these characteristics, fentanyl is commonly used to treat chronic cancer pain or in anesthesia. Fentanyl is related to other opioids like morphine and oxycodone.
+                            Fentanyl, a potent opioid agonist, was developed in the 1950s to fill a need for strong and rapid analgesia. These characteristics make fentanyl commonly used to treat chronic cancer pain or in anesthesia. Fentanyl is related to other opioids like morphine and oxycodone.
 
                             Fentanyl's high potency has also made it a common adulterant in illicit drugs, especially heroin. In 2017, 47,600 overdose deaths in the United States involved some opioid (over 2/3 of all overdose deaths).
 
                             Fentanyl was FDA approved in 1968.
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="drug-information">
-                <div class="img-caresoul">
-                    Image
-                </div>
-                <div class="interactions">
-                    Text
                 </div>
             </div>
         </div>
