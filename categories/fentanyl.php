@@ -25,7 +25,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col" style="width: 40%;">
-                                <div class="card text-dark bg-light mb-3" id="card-info">
+                                <div class="card text-dark bg-light mb-3 card-info">
                                     <div class="card-header">
                                         Drug Scheduling <!-- csa -->
                                     </div>
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                             <div class="col" style="width: 40%;">
-                                <div class="card text-dark bg-light mb-3" id="card-info">
+                                <div class="card text-dark bg-light mb-3 card-info">
                                     <div class="card-header">
                                         Brand Names
                                     </div>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class ="container">
+                <div class ="container" id="accordion-box">
                     <div class="accordion" id="adminstration-and-variations">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -65,7 +65,7 @@
                                     Classification
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     Fentanyl is a synthetic opioid that is 80-100 times stronger than morphine.
                                 </div>
@@ -79,7 +79,7 @@
                                 Administration
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div id="collapseTwo" class="accordion-collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 Fentanyl is typically administered intravenously (IV), intramuscularly (IM), transdermally (TD) as skin patches, intranasally (IN) in the form of a volatile nasal spray, and intrathecally (IT). It is also available as a buccal soluble thin film, which can dissolve in the mouth, similar to the sublingual tablets.
                             </div>
@@ -87,17 +87,17 @@
                     </div>
                 </div>   
             </div>
-            <div class="drug-information">
+            <div class="drug-information" id="image-carousel">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" id="FirstCarousel" >
-                            <img src="medpictures/FentanylDurogesic.jpg">
+                            <img src="medpictures/FentanylDurogesic.jpg" height="400">
                         </div>
                         <div class="carousel-item" id="image2">
-                            <img src="medpictures/FentanylCitrate.jpg">
+                            <img src="medpictures/FentanylCitrate.jpg" height="400">
                         </div>
                         <div class="carousel-item" id="image3">
-                            <img src="medpictures/fentora.jpg">
+                            <img src="medpictures/fentora.jpg" height="400">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -113,7 +113,10 @@
             <div class="drug-information">
             <div class="container">
                 <div id="background">
-                    <div class="card">
+                    <div class="card text-dark bg-light mb-3 card-info">
+                        <div class="card-header">
+                            Background <!-- csa -->
+                        </div>
                         <div class="card-body">
                             Fentanyl, a potent opioid agonist, was developed in the 1950s to fill a need for strong and rapid analgesia. These characteristics make fentanyl commonly used to treat chronic cancer pain or in anesthesia. Fentanyl is related to other opioids like morphine and oxycodone.
                             Fentanyl's high potency has also made it a common adulterant in illicit drugs, especially heroin. In 2017, 47,600 overdose deaths in the United States involved some opioid (over 2/3 of all overdose deaths).
@@ -121,15 +124,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="list-group">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                            <li class="list-group-item">Porta ac consectetur ac</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
-                        </ul> 
+                <div>
+                    <div class="card text-dark bg-light mb-3 card-info">
+                        <div class="card-header">
+                            Interactions <!-- csa -->
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Morbi leo risus</li>
+                                <li class="list-group-item">Porta ac consectetur ac</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

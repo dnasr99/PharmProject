@@ -22,6 +22,12 @@
     height: 90%;
 }
 
+#image-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 #searchbox{
 
@@ -69,10 +75,6 @@
     font-size: 20px;
 }
 
-#background{
-    
-    margin-top: 10rem;
-}
 
 #fentanyl-header{
     background-color: var(--oxford-blue);
@@ -90,7 +92,13 @@
 .drug-information-container{
     display: flex;
     flex-direction: row;
+
+    height: 75vh;
 }
+
+/* #accordion-box{
+    margin-top: 2rem;
+} */
 
 .drug-information{
     width: 50%;
@@ -100,16 +108,29 @@
     text-align: center;
 }
 
-.drug-information-container .drug-information .bn-and-csa .container .row .col #card-info .card-header:first-child{
+.card-info .card-header:first-child{
+    color: var(--orange-web);
+    font-size: 135%;
+    /* text-shadow: 1px 1px  rgba(20, 33, 61, 0.545); */
     font-weight: 600;
+}
+
+.list-group-item{
+    margin-bottom: .25rem;
 }
 
 
 .container .drug-information #carouselExampleControls .carousel-inner .carousel-item, img{
-    height: 20rem;
+    /* height: 20rem; */
     width: 100%;
 }
 
 .drug-information-container .container .drug-information #row-interactions{
     width: 80rem;
+}
+
+#background-info{
+    display: flex;
+    align-content: flex-start;
+
 }
