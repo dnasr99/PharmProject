@@ -18,6 +18,10 @@
 
 }
 
+.card{
+    height: 90%;
+}
+
 
 #searchbox{
 
@@ -106,5 +110,6 @@
     width: 100%;
 }
 
-
-
+.drug-information-container .container .drug-information #row-interactions{
+    width: 80rem;
+}

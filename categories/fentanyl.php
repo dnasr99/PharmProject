@@ -43,47 +43,50 @@
                                         Brand Names
                                     </div>
                                     <div class="card-body">
-                                        <h5 class="card-title-bn">
-                                            Abstral, Actiq, Duragesic, 
-                                            Fentora, Lazanda, Subsys
-                                        </h5>
+                                        <ul>
+                                            <li>Abstral</li>
+                                            <li>Actiq</li>
+                                            <li>Duragesic</li>
+                                            <li>Fentora</li>
+                                            <li>Lazanda</li>
+                                            <li>Subsys</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            <div class ="container">
-                <div class="accordion" id="adminstration-and-variations">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Classification
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Fentanyl is a synthetic opioid that is 80-100 times stronger than morphine.
+                <div class ="container">
+                    <div class="accordion" id="adminstration-and-variations">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Classification
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Fentanyl is a synthetic opioid that is 80-100 times stronger than morphine.
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                            Administration
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Fentanyl is typically administered intravenously (IV), intramuscularly (IM), transdermally (TD) as skin patches, intranasally (IN) in the form of a volatile nasal spray, and intrathecally (IT). It is also available as a buccal soluble thin film, which can dissolve in the mouth, similar to the sublingual tablets.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                Administration
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Fentanyl is typically administered intravenously (IV), intramuscularly (IM), transdermally (TD) as skin patches, intranasally (IN) in the form of a volatile nasal spray, and intrathecally (IT). It is also available as a buccal soluble thin film, which can dissolve in the mouth, similar to the sublingual tablets.
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>   
-        </div>
-        <div class="container">
+                </div>   
+            </div>
             <div class="drug-information">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -106,16 +109,27 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                </div>
-               <div id="background">
+            </div>
+            <div class="drug-information">
+            <div class="container">
+                <div id="background">
                     <div class="card">
                         <div class="card-body">
-                    
                             Fentanyl, a potent opioid agonist, was developed in the 1950s to fill a need for strong and rapid analgesia. These characteristics make fentanyl commonly used to treat chronic cancer pain or in anesthesia. Fentanyl is related to other opioids like morphine and oxycodone.
-
                             Fentanyl's high potency has also made it a common adulterant in illicit drugs, especially heroin. In 2017, 47,600 overdose deaths in the United States involved some opioid (over 2/3 of all overdose deaths).
-
                             Fentanyl was FDA approved in 1968.
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul> 
                     </div>
                 </div>
             </div>
