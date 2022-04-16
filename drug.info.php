@@ -20,6 +20,10 @@ if(isset($_GET['id']))
         include("categories/MORPHINE.php");
     
     }
+    else if($row['genericname'] == "HYDROCODONE" OR $row['genericname'] == "HYDROCODONE BITARTRATE" OR $row['genericname'] == "HYDROCODONE/IBUPROFEN" OR $row['genericname'] == "HYDROCODONE/ACETAMINOPHEN"){
+        include("categories/HYDROCODONE.php");
+    
+    }
  
 }else{
     echo "Sorry, Opioid not found";
