@@ -131,11 +131,11 @@
                         </div>
                         <div class="card-body">
                             <ul class="list-group">
-                                <li class="list-group-item">Cras justo odio</li>
-                                <li class="list-group-item">Dapibus ac facilisis in</li>
-                                <li class="list-group-item">Morbi leo risus</li>
-                                <li class="list-group-item">Porta ac consectetur ac</li>
-                                <li class="list-group-item">Vestibulum at eros</li>
+                                <li class="list-group-item">Cold or allergy medicines, bronchodilator asthma/COPD medication, medicines for motion sickeness, irritable bowel syndrome, or overactive bladder. </li>
+                                <li class="list-group-item">Other narcotic medications - opioid pain medicine or prescription cough medicine.</li>
+                                <li class="list-group-item">Sedatives like Valium - diazepam, alprazolam, lorazepam, Xanax, Klonopin, Versed, and others.</li>
+                                <li class="list-group-item">Drugs that make you sleepy or slow your breathing - a sleeping pill, muscle relaxer, medicine to treat mood disorders or mental illness.</li>
+                                <li class="list-group-item">Drugs that affect serotonin levels in your body - a stimulant, or medicine for depression, Parkinson's disease, migraine headaches, serious infections, or nausea and vomiting.</li>
                             </ul>
                         </div>
                     </div>

@@ -18,6 +18,10 @@
 
 }
 
+body{
+    background-color: var(--platinum);
+}
+
 .card{
     height: 90%;
 }
@@ -111,7 +115,7 @@
 .card-info .card-header:first-child{
     color: var(--orange-web);
     font-size: 135%;
-    /* text-shadow: 1px 1px  rgba(20, 33, 61, 0.545); */
+    text-shadow: 3px 3px  white;
     font-weight: 600;
 }
 
