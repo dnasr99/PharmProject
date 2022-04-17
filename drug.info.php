@@ -28,6 +28,10 @@ if(isset($_GET['id']))
         include("categories/OXYCODONE.php");
     
     }
+    else if($row['genericname'] == "BUTORPHANOL TARTRATE"){
+        include("categories/BUTORPHANOL.php");
+    
+    }
  
 }else{
     echo "Sorry, Opioid not found";
