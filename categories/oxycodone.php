@@ -7,15 +7,16 @@
         <link rel="shortcut icon" href="pillin.ico">
     </head>
 
-    <title>Hydrocodone</title>
+    <title>Oxycodone</title>
 
     <body>
         <div class="jumbotron drug-header" id="fentanyl-header">
             <h1 id="title">
-                Hydrocodone
+                Oxycodone
             </h1>
             <br>
-            <p id="paragraph">Hydrocodone is used to relieve pain, and stops or prevents cough.
+            <p id="paragraph">
+                Oxycodone is an opioid used in the management of moderate to severe pain.
             </p>
         </div>
         <div class="drug-information-container">
@@ -32,7 +33,7 @@
                                         <h5 class="card-title">
                                             Schedule II
                                         </h5>
-                                        <p class="card-text-fentanyl">Hydrocodone is considered a Schedule II drug because of its high potential for abuse, physical/psychological dependency, and can be dangerous.</p>
+                                        <p class="card-text-fentanyl">Oxycodone is considered a Schedule II drug because of its high potential for abuse, physical/psychological dependency, and can be dangerous.</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,12 +44,11 @@
                                     </div>
                                     <div class="card-body">
                                         <ul>
-                                            <li>Hysingla</li>
-                                            <li>Ibudone</li>
-                                            <li>Norco</li>
-                                            <li>Reprexain</li>
-                                            <li>Vicodin</li>
-                                            <li>Xodol</li>
+                                            <li>Oxyado</li>
+                                            <li>Oxycontin</li>
+                                            <li>Percocet</li>
+                                            <li>Primlev</li>
+                                            <li>Roxicodone</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Hydrocodone is a semisynthetic opioid that is created in labs from a natural opiate, codeine.
+                                    Oxycodone is a semisynthetic drug that is created in a labe and roots from the natural opiate, morphine. 
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,8 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Hydrocodone is pharmaceutically available as an oral medication with formulations, including tablets, capsules, and oral solutions. Tablets and capsules are not to be crushed, chewed, or dissolved, as this can lead to uncontrolled rapid medication delivery and overdose.
+                            Oxycodone is widely available in tablet, capsule, and oral solutions. It is currently available in 10-mg, 20-mg, 40-mg, or 80-mg pills. 
+                            Oxycodone is available in combination with other analgesics, including acetaminophen, aspirin, or ibuprofen. In select countries, oxycodone may be available in intramuscular and/or intravenous forms as well.
                             </div>
                         </div>
                     </div>
@@ -90,15 +91,15 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" id="FirstCarousel" >
-                            <img src="medpictures/Vicodin.jpg" height="400">
+                            <img src="medpictures/Percocet.jpg" height="400">
                         </div>
                         <div class="carousel-item" id="image2">
-                            <img src="medpictures/Norco.jpg" height="400">
+                            <img src="medpictures/Oxycontin.jpg" height="400">
                         </div>
                         <div class="carousel-item" id="image3">
-                            <img src="medpictures/Hysinglaa.jpg" height="400">
+                            <img src="medpictures/oxycodone.jpg" height="400">
                         </div>
-                    </div> 
+                    </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -117,9 +118,10 @@
                             Background <!-- csa -->
                         </div>
                         <div class="card-body">
-                            Hydrocodone is a semi-synthetic opioid derivative of codeine. It is commonly used in combination with acetaminophen to control moderate to severe pain. 
-                            Historically, hydrocodone has been used as a cough suppressant although this has largely been replaced by dextromethorphan in current cough and cold formulations. 
-                            The FDA first approved Hydrocodone for use as part of the cough suppressant syrup Hycodan in March of 1943.
+                            
+                            Oxycodone is a semisynthetic opioid analgesic derived from thebaine in Germany in 1917.
+                            It is currently indicated as an immediate release product for moderate to severe pain and as an extended release product for chronic moderate to severe pain requiring continuous opioid analgesics for an extended period.
+                            The first oxycodone containing product, Percodan, was approved by the FDA on April 12, 1950.
                         </div>
                     </div>
                 </div>

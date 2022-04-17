@@ -24,6 +24,10 @@ if(isset($_GET['id']))
         include("categories/HYDROCODONE.php");
     
     }
+    else if($row['genericname'] == "OXYCODONE HCL" OR $row['genericname'] == "OXYCODONE HCL/ACETAMINOPHEN"){
+        include("categories/OXYCODONE.php");
+    
+    }
  
 }else{
     echo "Sorry, Opioid not found";
