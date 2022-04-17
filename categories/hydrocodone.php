@@ -7,16 +7,15 @@
         <link rel="shortcut icon" href="pillin.ico">
     </head>
 
-    <title>Fentanyl</title>
+    <title>Hydrocodone</title>
 
     <body>
         <div class="jumbotron drug-header" id="fentanyl-header">
             <h1 id="title">
-                Fentanyl
+                Hydrocodone
             </h1>
             <br>
-            <p id="paragraph">Fentanyl is an opioid analgesic used in anesthesia, for breakthrough cancer pain, 
-                or round the clock pain management.
+            <p id="paragraph">Hydrocodone is used to relieve pain, and stops or prevents cough.
             </p>
         </div>
         <div class="drug-information-container">
@@ -33,7 +32,7 @@
                                         <h5 class="card-title">
                                             Schedule II
                                         </h5>
-                                        <p class="card-text-fentanyl">Fentanyl is considered a Schedule II drug because of its high potential for abuse, physical/psychological dependency, and can be dangerous.</p>
+                                        <p class="card-text-fentanyl">Hydrocodone is considered a Schedule II drug because of its high potential for abuse, physical/psychological dependency, and can be dangerous.</p>
                                     </div>
                                 </div>
                             </div>
@@ -44,12 +43,12 @@
                                     </div>
                                     <div class="card-body">
                                         <ul>
-                                            <li>Abstral</li>
-                                            <li>Actiq</li>
-                                            <li>Duragesic</li>
-                                            <li>Fentora</li>
-                                            <li>Lazanda</li>
-                                            <li>Subsys</li>
+                                            <li>Hysingla</li>
+                                            <li>Ibudone</li>
+                                            <li>Norco</li>
+                                            <li>Reprexain</li>
+                                            <li>Vicodin</li>
+                                            <li>Xodol</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -67,7 +66,7 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Fentanyl is a synthetic opioid that is 80-100 times stronger than morphine.
+                                    Hydrocodone is a semi-synthetic opioid that is created in labs from a natural opiate, codeine.
                                 </div>
                             </div>
                         </div>
@@ -81,7 +80,7 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Fentanyl is typically administered intravenously (IV), intramuscularly (IM), transdermally (TD) as skin patches, intranasally (IN) in the form of a volatile nasal spray, and intrathecally (IT). It is also available as a buccal soluble thin film, which can dissolve in the mouth, similar to the sublingual tablets.
+                                Hydrocodone is pharmaceutically available as an oral medication with formulations, including tablets, capsules, and oral solutions. Tablets and capsules are not to be crushed, chewed, or dissolved, as this can lead to uncontrolled rapid medication delivery and overdose.
                             </div>
                         </div>
                     </div>
@@ -91,13 +90,13 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" id="FirstCarousel" >
-                            <img src="medpictures/FentanylDurogesic.jpg" height="400">
+                            <img src="medpictures/Vicodin.jpg" height="400">
                         </div>
                         <div class="carousel-item" id="image2">
-                            <img src="medpictures/FentanylCitrate.jpg" height="400">
+                            <img src="medpictures/Norco.jpg" height="400">
                         </div>
                         <div class="carousel-item" id="image3">
-                            <img src="medpictures/fentora.jpg" height="400">
+                            <img src="medpictures/Hysinglaa.jpg" height="400">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -118,9 +117,9 @@
                             Background <!-- csa -->
                         </div>
                         <div class="card-body">
-                            Fentanyl, a potent opioid agonist, was developed in the 1950s to fill a need for strong and rapid analgesia. These characteristics make fentanyl commonly used to treat chronic cancer pain or in anesthesia. Fentanyl is related to other opioids like morphine and oxycodone.
-                            Fentanyl's high potency has also made it a common adulterant in illicit drugs, especially heroin. In 2017, 47,600 overdose deaths in the United States involved some opioid (over 2/3 of all overdose deaths).
-                            Fentanyl was FDA approved in 1968.
+                            Hydrocodone is a semi-synthetic opioid derivative of codeine. It is commonly used in combination with acetaminophen to control moderate to severe pain. 
+                            Historically, hydrocodone has been used as a cough suppressant although this has largely been replaced by dextromethorphan in current cough and cold formulations. 
+                            The FDA first approved Hydrocodone for use as part of the cough suppressant syrup Hycodan in March of 1943.
                         </div>
                     </div>
                 </div>

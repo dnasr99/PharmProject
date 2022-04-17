@@ -33,7 +33,7 @@
                                         <h5 class="card-title">
                                             Schedule II
                                         </h5>
-                                        <p class="card-text-fentanyl">Fentanyl is considered a Schedule II drug because of its high potential for abuse, physical/psychological dependency, and can be dangerous.</p>
+                                        <p class="card-text-fentanyl">Morphine is considered a Schedule II drug because of its high potential for abuse, physical/psychological dependency, and can be dangerous.</p>
                                     </div>
                                 </div>
                             </div>
