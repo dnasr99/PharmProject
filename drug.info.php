@@ -32,6 +32,10 @@ if(isset($_GET['id']))
         include("categories/BUTORPHANOL.php");
     
     }
+    else if($row['genericname'] == "OXYMORPHONE HCL"){
+        include("categories/OXYMORPHONE.php");
+    
+    }
  
 }else{
     echo "Sorry, Opioid not found";
