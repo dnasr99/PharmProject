@@ -40,6 +40,10 @@ if(isset($_GET['id']))
         include("categories/TRAMADOL.php");
     
     }
+    else if($row['genericname'] == "MEPERIDINE HCL"){
+        include("categories/MEPERIDINE.php");
+    
+    }
  
 }else{
     echo "Sorry, Opioid not found";
