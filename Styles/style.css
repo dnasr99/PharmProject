@@ -69,7 +69,6 @@ body{
 } */
 
 #title{
-    /* color: black; */
     text-shadow: 3px 3px black;
     color: var(--platinum);
     font-size: 60px;
