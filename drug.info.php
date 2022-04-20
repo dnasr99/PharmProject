@@ -48,6 +48,10 @@ if(isset($_GET['id']))
         include("categories/HYDROMORPHONE.php");
     
     }
+    else if($row['genericname'] == "TAPENTADOL HCL"){
+        include("categories/TAPENTADOL.php");
+    
+    }
  
 }else{
     echo "Sorry, Opioid not found";
