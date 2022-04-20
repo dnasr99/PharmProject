@@ -44,6 +44,10 @@ if(isset($_GET['id']))
         include("categories/MEPERIDINE.php");
     
     }
+    else if($row['genericname'] == "HYDROMORPHONE HCL"){
+        include("categories/HYDROMORPHONE.php");
+    
+    }
  
 }else{
     echo "Sorry, Opioid not found";
